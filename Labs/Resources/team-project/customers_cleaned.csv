@@ -1,0 +1,31 @@
+customer_id,first_name,last_name,email,city,state,age,gender,customer_segment,acquisition_date,acquisition_channel,lifetime_value,churn_risk
+1001,Emily,Johnson,emily.j@email.com,Austin,TX,28,F,Occasional,2022-03-15,Social Media,892.5,Low
+1002,Michael,Chen,m.chen@email.com,Dallas,TX,35,M,High-Value,2021-01-20,Google,4587.3,Low
+1003,Sarah,Williams,sarah.w@email.com,Houston,TX,42,F,Frequent,2021-06-10,Email,2245.8,Medium
+1004,James,Davis,james.d@email.com,San Antonio,TX,31,M,Occasional,2023-02-28,Direct,445.6,High
+1005,Maria,Garcia,maria.g@email.com,Austin,TX,26,F,New,2024-01-05,Instagram,125.4,Medium
+1006,Robert,Taylor,robert.t@email.com,Fort Worth,TX,55,M,High-Value,2020-09-12,Referral,6234.9,Low
+1007,Jessica,Martinez,jessica.m@email.com,Austin,TX,33,F,Frequent,2022-07-22,Facebook,1876.3,Low
+1008,David,Anderson,david.a@email.com,El Paso,TX,29,M,Occasional,2023-05-18,Google,623.7,Medium
+1009,Lisa,Brown,lisa.b@email.com,Austin,TX,38,F,High-Value,2021-04-03,Email,3892.4,Low
+1010,William,Jones,william.j@email.com,Houston,TX,45,M,Dormant,2020-12-15,Direct,234.8,High
+1011,Amanda,Miller,amanda.m@email.com,Dallas,TX,32,F,Frequent,2022-02-10,Instagram,2156.9,Low
+1012,Christopher,Wilson,chris.w@email.com,Austin,TX,37,M,High-Value,2021-03-25,Google,5123.4,Low
+1013,Jennifer,Moore,jen.moore@email.com,Houston,TX,29,F,Occasional,2023-01-15,Social Media,756.3,Medium
+1014,Matthew,Taylor,matt.t@email.com,San Antonio,TX,41,M,Frequent,2021-08-07,Email,1998.7,Low
+1015,Ashley,Thomas,ashley.t@email.com,Fort Worth,TX,27,F,New,2024-01-12,TikTok,189.9,Medium
+1016,Daniel,Jackson,dan.j@email.com,Austin,TX,34,M,High-Value,2020-10-20,Referral,4876.5,Low
+1017,Michelle,White,michelle.w@email.com,Dallas,TX,36,F,Frequent,2022-04-18,Facebook,2345.6,Medium
+1018,Joseph,Harris,joe.h@email.com,El Paso,TX,30,M,Occasional,2023-03-22,Google,534.8,High
+1019,Elizabeth,Martin,liz.m@email.com,Houston,TX,39,F,High-Value,2021-05-14,Direct,3567.2,Low
+1020,Andrew,Thompson,andrew.t@email.com,Austin,TX,44,M,Dormant,2020-11-28,Email,198.7,High
+1021,Samantha,Garcia,sam.g@email.com,San Antonio,TX,25,F,New,2024-01-08,Instagram,215.6,Low
+1022,Ryan,Robinson,ryan.r@email.com,Dallas,TX,33,M,Frequent,2021-07-30,Google,2678.9,Low
+1023,Nicole,Clark,nicole.c@email.com,Fort Worth,TX,40,F,High-Value,2020-09-05,Referral,5432.1,Low
+1024,Kevin,Rodriguez,kevin.r@email.com,Austin,TX,28,M,Occasional,2022-11-10,Social Media,678.4,Medium
+1025,Laura,Lewis,laura.l@email.com,Houston,TX,31,F,Frequent,2022-01-20,Email,1789.3,Low
+1026,Brian,Lee,brian.lee@email.com,El Paso,TX,35,M,Occasional,2023-04-05,Facebook,423.5,High
+1027,Amy,Walker,amy.w@email.com,Dallas,TX,37,F,High-Value,2021-02-12,Google,4123.6,Low
+1028,Justin,Hall,justin.h@email.com,Austin,TX,26,M,New,2024-01-03,TikTok,156.8,Medium
+1029,Rachel,Allen,rachel.a@email.com,San Antonio,TX,43,F,Frequent,2021-09-18,Direct,2234.7,Medium
+1030,Eric,Young,eric.y@email.com,Houston,TX,46,M,Dormant,2020-12-01,Email,267.9,High

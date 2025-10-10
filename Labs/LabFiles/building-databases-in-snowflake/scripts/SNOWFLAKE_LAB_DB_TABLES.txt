@@ -1,0 +1,88 @@
+-- permanent database
+CREATE DATABASE LAB_DB COMMEMNT = 'The Lab Database' DATA_RETENTION_TIME_IN_DAYS = 1;
+
+USE DATABASE LAB_DB;
+
+
+CREATE or replace TABLE Orders (
+	Order_ID number(5) NOT NULL ,
+	Customer_ID nchar (5) NULL ,
+	Employee_ID int NULL ,
+	Order_Date date NULL ,
+	Required_Date date NULL ,
+	Shipped_Date date NULL ,
+	Ship_Via int NULL ,
+	Freight number(10,2) NULL,
+	Ship_Name varchar (40) NULL ,
+	Ship_Address varchar (60) NULL ,
+	Ship_City varchar (15) NULL ,
+	Ship_Region varchar (15) NULL ,
+	Ship_Postal_Code varchar (10) NULL ,
+	Ship_Country varchar (15) NULL);
+	
+
+
+CREATE TABLE Order_Details (
+	Order_ID number(5) NOT NULL ,
+	Product_ID number(5) NOT NULL ,
+	Unit_Price number(10,2) NOT NULL ,
+	Quantity number(5) NOT NULL ,
+	Discount number(5,2) NOT NULL );
+
+
+******  You should not need to use these but they
+******  are here just in case.
+
+
+CREATE or replace TABLE Categories (
+	Category_ID number(9) NOT NULL ,
+	Category_Name varchar (15) NOT NULL ,
+	Description varchar(100) NULL
+	);
+
+CREATE or replace TABLE Products (
+	Product_ID number(5) NOT NULL ,
+	Product_Name varchar(40) NOT NULL ,
+	Supplier_ID int NULL ,
+	Category_ID int NULL ,
+	Quantity_per_unit varchar(20) NULL ,
+	Unit_Price number(10,2) NULL,
+	Units_In_Stock number NULL ,
+	Units_On_Order number NULL,
+	Reorder_Level number NULL ,
+	Discontinued number NOT NULL );
+
+CREATE TABLE Employees (
+	Employee_ID number(5) NOT NULL ,
+	Last_Name varchar (20) NOT NULL ,
+	First_Name varchar (10) NOT NULL ,
+	Title varchar (30) NULL ,
+	Title_Of_Courtesy varchar (25) NULL ,
+	Birth_Date date NULL ,
+	Hire_Date date NULL ,
+	Address varchar (60) NULL ,
+	City varchar (15) NULL ,
+	Region varchar (15) NULL ,
+	Postal_Code varchar (10) NULL ,
+	Country varchar (15) NULL ,
+	Home_Phone varchar (24) NULL ,
+	Extension varchar (4) NULL ,
+	Notes varchar(200) NULL ,
+	Reports_To int NULL ,
+	Photo_Path varchar (255) NULL);
+
+
+
+CREATE or replace TABLE Customers (
+	Customer_ID varchar(5) NOT NULL ,
+	Company_Name varchar (40) NOT NULL ,
+	Contact_Name varchar (30) NULL ,
+	Contact_Title varchar (30) NULL ,
+	Address varchar (60) NULL ,
+	City varchar (15) NULL ,
+	Region varchar (15) NULL ,
+	Postal_Code varchar (10) NULL ,
+	Country varchar (15) NULL ,
+	Phone varchar (24) NULL ,
+	Fax varchar (24) NULL);
+
