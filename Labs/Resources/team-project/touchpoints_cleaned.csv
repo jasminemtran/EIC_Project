@@ -1,28 +1,28 @@
 touchpoint_id,customer_id,session_id,touchpoint_timestamp,touchpoint_type,channel,campaign_id,referrer_source,landing_page,pages_viewed,products_viewed,cart_additions,cart_value,converted_flag,transaction_id,device_type,store_id
-6001,1001,sess_1001_01,2024-01-03 09:00:00,Ad Click,Instagram,101.0,instagram.com,/spring-collection,5,"[2001, 2002, 2005]",0,0.0,False,None,Mobile,None
-6002,1001,sess_1001_02,2024-01-04 19:30:00,Web Visit,Direct,None,direct,/home,8,"[2001, 2003, 2007, 2009]",2,99.98,False,None,Mobile,None
-6003,1001,sess_1001_03,2024-01-05 10:25:00,Web Visit,Email,103.0,email,/sale,3,"[2001, 2003, 2007]",3,189.97,True,4001.0,Mobile,None
-6004,1003,sess_1003_01,2024-01-07 14:00:00,Email Open,Email,103.0,gmail.com,NA,0,None,0,0.0,False,None,Mobile,None
-6005,1003,sess_1003_02,2024-01-08 11:15:00,Web Visit,Email,103.0,email,/new-arrivals,4,"[2009, 2006]",1,149.99,True,4003.0,Desktop,None
-6006,1005,sess_1005_01,2024-01-05 20:00:00,Ad Click,TikTok,105.0,tiktok.com,/trending,12,"[2001, 2002, 2003, 2005, 2007]",3,94.97,False,None,Mobile,None
-6007,1005,sess_1005_02,2024-01-06 09:25:00,Web Visit,Direct,None,direct,/cart,2,"[2001, 2003]",0,94.97,True,4010.0,Mobile,None
-6008,1002,store_1002_01,2024-01-07 13:00:00,Store Visit,Walk-in,None,Walk In,NA,0,None,0,0.0,True,4005.0,Store,3001.0
-6009,1006,store_1006_01,2024-01-09 10:00:00,Store Visit,Walk-in,None,Walk In,NA,0,None,0,0.0,True,4006.0,Store,3002.0
-6010,1007,sess_1007_01,2024-01-08 15:30:00,Ad Click,Facebook,104.0,facebook.com,/fitness-gear,6,"[2004, 2016]",1,149.99,False,None,Desktop,None
-6011,1007,sess_1007_02,2024-01-09 14:25:00,Web Visit,Direct,None,direct,/checkout,2,"[2004, 2016]",2,289.98,True,4013.0,Desktop,None
-6012,1009,sess_1009_01,2024-01-10 18:00:00,Web Visit,Google,107.0,google.com,/search,7,"[2001, 2011, 2015]",2,84.98,True,4007.0,Mobile,None
-6013,1004,sess_1004_01,2024-01-11 11:45:00,Email Open,Email,103.0,outlook.com,NA,0,None,0,0.0,True,4008.0,Desktop,None
-6014,1008,store_1008_01,2024-01-13 15:30:00,Store Visit,Walk-in,None,Walk In,NA,0,None,0,0.0,True,4009.0,Store,3005.0
-6015,1010,sess_1010_01,2024-01-08 17:15:00,Web Visit,Direct,None,direct,/sale,3,[2020],1,29.99,True,4011.0,Mobile,None
-6016,1011,sess_1011_01,2024-01-08 10:30:00,Ad Click,Instagram,111.0,instagram.com,/summer-preview,4,"[2012, 2014]",0,0.0,False,None,Mobile,None
-6017,1011,sess_1011_02,2024-01-09 15:45:00,Web Visit,Google,117.0,google.com,/search,10,"[2012, 2014, 2010, 2017]",3,214.97,False,None,Desktop,None
-6018,1011,sess_1011_03,2024-01-10 13:15:00,Web Visit,Direct,None,direct,/checkout,2,"[2012, 2014, 2010]",3,229.97,True,4016.0,Desktop,None
-6019,1012,sess_1012_01,2024-01-09 11:00:00,Email Open,Email,113.0,gmail.com,NA,0,None,0,0.0,False,None,Mobile,None
-6020,1012,sess_1012_02,2024-01-10 11:15:00,Web Visit,Email,113.0,email,/vip-deals,8,"[2013, 2019, 2008]",2,259.98,True,4017.0,Mobile,None
-6021,1013,store_1013_01,2024-01-11 15:00:00,Store Visit,Walk-in,None,Walk In,NA,0,None,0,0.0,True,4018.0,Store,3002.0
-6022,1014,sess_1014_01,2024-01-11 12:30:00,Web Visit,Google,117.0,google.com,/paid-search,12,"[2015, 2017, 2001]",2,119.98,True,4019.0,Desktop,None
-6023,1015,sess_1015_01,2024-01-12 10:15:00,Ad View,TikTok,115.0,tiktok.com,/viral,2,[2015],1,49.99,True,4020.0,Mobile,None
-6024,1016,sess_1016_01,2024-01-12 16:00:00,Web Visit,Direct,None,direct,/luxury,15,"[2016, 2018, 2010, 2008]",3,629.97,True,4021.0,Desktop,None
-6025,1017,store_1017_01,2024-01-13 10:45:00,Store Visit,Walk-in,None,Walk In,NA,0,None,0,0.0,True,4022.0,Store,3004.0
-6026,1018,sess_1018_01,2024-01-13 17:30:00,Web Visit,Direct,None,direct,/products,5,[2002],1,89.99,True,4023.0,Mobile,None
-6027,1019,sess_1019_01,2024-01-14 14:00:00,Web Visit,Google,127.0,google.com,/shopping,18,"[2003, 2016, 2017]",3,329.97,True,4024.0,Mobile,None
+6001,1001,sess_1001_01,2024-01-03 09:00:00,Ad Click,Instagram,101,instagram.com,/spring-collection,5,"[2001, 2002, 2005]",0,0.0,False,0,Mobile,0
+6002,1001,sess_1001_02,2024-01-04 19:30:00,Web Visit,Direct,0,direct,/home,8,"[2001, 2003, 2007, 2009]",2,99.98,False,0,Mobile,0
+6003,1001,sess_1001_03,2024-01-05 10:25:00,Web Visit,Email,103,email,/sale,3,"[2001, 2003, 2007]",3,189.97,True,4001,Mobile,0
+6004,1003,sess_1003_01,2024-01-07 14:00:00,Email Open,Email,103,gmail.com,NA,5,None,0,0.0,False,0,Mobile,0
+6005,1003,sess_1003_02,2024-01-08 11:15:00,Web Visit,Email,103,email,/new-arrivals,4,"[2009, 2006]",1,149.99,True,4003,Desktop,0
+6006,1005,sess_1005_01,2024-01-05 20:00:00,Ad Click,TikTok,105,tiktok.com,/trending,12,"[2001, 2002, 2003, 2005, 2007]",3,94.97,False,0,Mobile,0
+6007,1005,sess_1005_02,2024-01-06 09:25:00,Web Visit,Direct,0,direct,/cart,2,"[2001, 2003]",0,94.97,True,4010,Mobile,0
+6008,1002,store_1002_01,2024-01-07 13:00:00,Store Visit,Walk-in,0,Walk In,NA,5,None,0,0.0,True,4005,Store,3001
+6009,1006,store_1006_01,2024-01-09 10:00:00,Store Visit,Walk-in,0,Walk In,NA,5,None,0,0.0,True,4006,Store,3002
+6010,1007,sess_1007_01,2024-01-08 15:30:00,Ad Click,Facebook,104,facebook.com,/fitness-gear,6,"[2004, 2016]",1,149.99,False,0,Desktop,0
+6011,1007,sess_1007_02,2024-01-09 14:25:00,Web Visit,Direct,0,direct,/checkout,2,"[2004, 2016]",2,289.98,True,4013,Desktop,0
+6012,1009,sess_1009_01,2024-01-10 18:00:00,Web Visit,Google,107,google.com,/search,7,"[2001, 2011, 2015]",2,84.98,True,4007,Mobile,0
+6013,1004,sess_1004_01,2024-01-11 11:45:00,Email Open,Email,103,outlook.com,NA,5,None,0,0.0,True,4008,Desktop,0
+6014,1008,store_1008_01,2024-01-13 15:30:00,Store Visit,Walk-in,0,Walk In,NA,5,None,0,0.0,True,4009,Store,3005
+6015,1010,sess_1010_01,2024-01-08 17:15:00,Web Visit,Direct,0,direct,/sale,3,[2020],1,29.99,True,4011,Mobile,0
+6016,1011,sess_1011_01,2024-01-08 10:30:00,Ad Click,Instagram,111,instagram.com,/summer-preview,4,"[2012, 2014]",0,0.0,False,0,Mobile,0
+6017,1011,sess_1011_02,2024-01-09 15:45:00,Web Visit,Google,117,google.com,/search,10,"[2012, 2014, 2010, 2017]",3,214.97,False,0,Desktop,0
+6018,1011,sess_1011_03,2024-01-10 13:15:00,Web Visit,Direct,0,direct,/checkout,2,"[2012, 2014, 2010]",3,229.97,True,4016,Desktop,0
+6019,1012,sess_1012_01,2024-01-09 11:00:00,Email Open,Email,113,gmail.com,NA,5,None,0,0.0,False,0,Mobile,0
+6020,1012,sess_1012_02,2024-01-10 11:15:00,Web Visit,Email,113,email,/vip-deals,8,"[2013, 2019, 2008]",2,259.98,True,4017,Mobile,0
+6021,1013,store_1013_01,2024-01-11 15:00:00,Store Visit,Walk-in,0,Walk In,NA,5,None,0,0.0,True,4018,Store,3002
+6022,1014,sess_1014_01,2024-01-11 12:30:00,Web Visit,Google,117,google.com,/paid-search,12,"[2015, 2017, 2001]",2,119.98,True,4019,Desktop,0
+6023,1015,sess_1015_01,2024-01-12 10:15:00,Ad View,TikTok,115,tiktok.com,/viral,2,[2015],1,49.99,True,4020,Mobile,0
+6024,1016,sess_1016_01,2024-01-12 16:00:00,Web Visit,Direct,0,direct,/luxury,15,"[2016, 2018, 2010, 2008]",3,629.97,True,4021,Desktop,0
+6025,1017,store_1017_01,2024-01-13 10:45:00,Store Visit,Walk-in,0,Walk In,NA,5,None,0,0.0,True,4022,Store,3004
+6026,1018,sess_1018_01,2024-01-13 17:30:00,Web Visit,Direct,0,direct,/products,5,[2002],1,89.99,True,4023,Mobile,0
+6027,1019,sess_1019_01,2024-01-14 14:00:00,Web Visit,Google,127,google.com,/shopping,18,"[2003, 2016, 2017]",3,329.97,True,4024,Mobile,0
